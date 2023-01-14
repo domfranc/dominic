@@ -35,7 +35,6 @@ def affiche_coordone(X):
 	X.norme()
 
 #-------------------------------------------------------------------------------------
-
 def entete():
 	print("ATTENTION A VOUS CAR LE PROGRAMME QUE VOUS EXECUTEZ EST PRODUIT DE LA TEAM L'INTELIGENCIA.")
 	print("CE PROGRAMME CALCULE LE PRODUIT VECTORIEL DE DEUX VECTEUR AB ET AC ENTRER PAR L'UTILISATEUR")
@@ -43,7 +42,7 @@ def entete():
 
 
 def pied():
-	print("\t\t\tCOPYRIGHT 2023, INTELLIGENCIA CORPORATION CAMEROON.")
+	print("\t\t\tCOPYRIGHT 2023, INTELLIGENCIA CORPORATION CAMEROON. ALL RIGHT RESERVED. ")
 
 #---------------------------------------------------------------------------------------------------------
 
@@ -61,3 +60,11 @@ def vecteur(A,B,C,D,E):
 	print("le vecteur Ac a pour coordone ({},{},{})".format(E.x,E.y,E.z))
 
 	prod_vect(D,E)
+
+#--------------------------------------------------------------------------------------
+
+def main():
+	'''Cette fonction est la fonction principale du programme'''
+	
+
+#--------------------------------------------------------------------------------------
